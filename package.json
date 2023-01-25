@@ -1,10 +1,10 @@
 {
-  "name": "chrome-extension-scrapper",
+  "name": "chrome-extension-scraper",
   "version": "0.1.0",
   "description": "It scrapes specific data from web pages and display it in a DevTools panel.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gabcl/chrome-extension-scrapper"
+    "url": "https://github.com/gabcl/chrome-extension-scraper"
   },
   "scripts": {
     "build": "node utils/build.js",

@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Chrome Scrapper",
+  "name": "Chrome Scraper",
   "description": "It scrapes specific data from web pages and display it in a DevTools Panel",
   "options_page": "options.html",
   "background": {

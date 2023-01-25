@@ -1,4 +1,4 @@
-# Chrome Extension Scrapper
+# Chrome Extension Scraper
 
 It scrapes specific data from web pages and display it in a DevTools panel.
 
@@ -26,7 +26,7 @@ DevTools Panel -> Background -> Content -> Background -> DevTools Panel
 
 ## Main components to configure
 
-- .src/models/DataFrame -> Define content scraped and passed though messages.
+- .src/models/DataFrame -> Define content scraped and passed through messages.
 - .src/pages/Content/modules/parser.ts -> Handles the scraping in the context of web pages.
 
 **Initially forked from:**  
