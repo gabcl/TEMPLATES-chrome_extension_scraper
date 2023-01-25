@@ -21,7 +21,7 @@ Running in the same context as web pages, it can retrieve data from them.
 
 ## Message Flow
 
-**Messages initiated in panelScript**
+**Messages initiated in panelScript**  
 DevTools Panel -> Background -> Content -> Background -> DevTools Panel
 
 ## Main components to configure
