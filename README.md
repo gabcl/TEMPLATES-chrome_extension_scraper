@@ -1,12 +1,8 @@
 # Chrome Extension Scrapper
 
----
-
 It scrapes specific data from web pages and display it in a DevTools panel.
 
 ## Built with:
-
----
 
 - TypeScript
 - React
@@ -14,27 +10,21 @@ It scrapes specific data from web pages and display it in a DevTools panel.
 
 ## Main Components
 
----
-
-**DevTools Panel**
+**DevTools Panel**  
 Contains the extension's UI.
 
-**Background**
+**Background**  
 Background service-worker script. Acts as a bridge for messaging between the DevTools Panel and the Content scripts.
 
-**Content Scripts**
+**Content Scripts**  
 Running in the same context as web pages, it can retrieve data from them.
 
 ## Message Flow
-
----
 
 **Messages initiated in panelScript**
 DevTools Panel -> Background -> Content -> Background -> DevTools Panel
 
 ## Main components to configure
-
----
 
 - .src/models/DataFrame -> Define content scraped and passed though messages.
 - .src/pages/Content/modules/parser.ts -> Handles the scraping in the context of web pages.
